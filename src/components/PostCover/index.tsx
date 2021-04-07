@@ -1,10 +1,14 @@
-import { Container } from './styled';
+import { Container, Img } from './styled';
 
-export type PostCoverProps = {
+export interface PostCoverProps {
   coverUrl: string;
   alt: string;
-};
+}
 
-export const PostCover = ({ coverUrl, alt }: PostCoverProps) => {
-  return <Container src={coverUrl} alt={alt} />;
-};
+export default function PostCover({ coverUrl, alt }: PostCoverProps) {
+  return (
+    <Container>
+      <Img src={coverUrl} alt={alt} />
+    </Container>
+  );
+}

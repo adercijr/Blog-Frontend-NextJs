@@ -10,10 +10,11 @@ export const Container = styled.div`
 
 export const PostCardCover = styled.div`
   margin-bottom: ${({ theme }) => theme.spacings.small};
-
+  background: ${({ theme }) => theme.colors.darkGray};
   img {
-    width: 100%;
     display: block;
+    max-height: 200px;
+    margin: 0 auto;
   }
 `;
 
