@@ -24,3 +24,9 @@ export const Category = styled.div`
     font-weight: bold;
   `}
 `;
+
+export const AllPostsLinks = styled.a`
+  display: block;
+  text-align: center;
+  margin: ${({ theme }) => theme.spacings.large} 0;
+`;
