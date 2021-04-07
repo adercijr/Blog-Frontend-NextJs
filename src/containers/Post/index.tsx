@@ -36,9 +36,8 @@ export const Post = ({ post }: PostProps) => {
           <PostCover
             alt={post.title}
             coverUrl={
-              post.cover.formats.large.url || 
-              post.cover.formats.medium.url || 
-              post.cover.formats.small.url  }
+              post.cover.formats.large.url ? post.cover.formats.large.url 
+              : post.cover.formats.small.url }
           />
           <PostDetails
             date={post.created_at}
