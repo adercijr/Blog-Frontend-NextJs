@@ -35,7 +35,10 @@ export const Post = ({ post }: PostProps) => {
           <Heading>{post.title}</Heading>
           <PostCover
             alt={post.title}
-            coverUrl={post.cover.formats.large.url}
+            coverUrl={
+              post.cover.formats.large.url || 
+              post.cover.formats.medium.url || 
+              post.cover.formats.small.url  }
           />
           <PostDetails
             date={post.created_at}
