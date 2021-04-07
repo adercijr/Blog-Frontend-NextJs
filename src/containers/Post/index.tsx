@@ -17,6 +17,17 @@ export type PostProps = {
 };
 
 export const Post = ({ post }: PostProps) => {
+
+  function coverUrl(){
+    if(post.cover.formats.large){
+      return post.cover.formats.large.url
+    } else if(post.cover.formats.medium){
+      return post.cover.formats.medium.url
+    } else {
+      return post.cover.formats.small.url
+    }
+  }
+
   return (
     <>
     <Head>
@@ -35,9 +46,7 @@ export const Post = ({ post }: PostProps) => {
           <Heading>{post.title}</Heading>
           <PostCover
             alt={post.title}
-            coverUrl={
-              post.cover.formats.large.url ? post.cover.formats.large.url 
-              : post.cover.formats.small.url }
+            coverUrl={coverUrl()}
           />
           <PostDetails
             date={post.created_at}
