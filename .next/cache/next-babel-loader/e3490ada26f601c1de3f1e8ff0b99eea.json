@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled, { css } from 'styled-components';\nexport const Container = styled.footer`\n  ${({\n  theme\n}) => css`\n    text-align: center;\n    margin: ${theme.spacings.medium};\n    color: ${theme.colors.gray};\n    font-size: ${theme.font.sizes.small};\n  `}\n`;","map":null,"metadata":{},"sourceType":"module"}

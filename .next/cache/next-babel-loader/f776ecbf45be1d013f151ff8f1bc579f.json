@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled, { css } from 'styled-components';\nexport const Container = styled.main`\n  width: 100%;\n  height: 100%;\n  ${({\n  theme\n}) => css`\n    font-size: ${theme.font.sizes.medium};\n    margin: 0 auto;\n    padding: ${theme.spacings.medium};\n  `};\n`;","map":null,"metadata":{},"sourceType":"module"}

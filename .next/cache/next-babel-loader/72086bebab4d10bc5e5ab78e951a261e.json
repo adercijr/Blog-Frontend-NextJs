@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { SITE_NAME } from '../../config/app-config';\nimport { Container } from './styled';\nexport const Footer = () => {\n  return __jsx(Container, null, \"Feito com carinho por \", SITE_NAME);\n};","map":null,"metadata":{},"sourceType":"module"}

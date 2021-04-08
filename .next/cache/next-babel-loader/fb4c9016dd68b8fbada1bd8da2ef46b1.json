@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { POSTS_URL } from '../../config/app-config';\nimport { fetchJson } from '../../utils/fetch-json';\nexport const countAllPosts = async (query = '') => {\n  const url = `${POSTS_URL}/count?${query}`;\n  const numberOfPosts = await fetchJson(url);\n  return numberOfPosts;\n};","map":null,"metadata":{},"sourceType":"module"}

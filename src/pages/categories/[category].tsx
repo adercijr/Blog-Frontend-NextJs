@@ -17,6 +17,6 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const posts = await getAllPosts(urlQuery);
 
   return {
-    props: { posts, category: ctx.query.category },
+    props: { posts, category: ctx.query.category }
   };
 };

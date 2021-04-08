@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var formatDate = function formatDate(date) {\n  var dateObj = new Date(date);\n  return dateObj.toLocaleDateString('pt-BR', {\n    timeZone: 'America/Sao_Paulo'\n  });\n};","map":null,"metadata":{},"sourceType":"module"}

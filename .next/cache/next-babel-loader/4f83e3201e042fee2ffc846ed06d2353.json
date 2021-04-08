@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled, { css } from 'styled-components';\nexport const Container = styled.h2`\n  ${({\n  theme\n}) => css`\n    font-size: ${theme.font.sizes.superLarge};\n    margin: ${theme.spacings.large} 0;\n    text-align: center;\n  `}\n`;","map":null,"metadata":{},"sourceType":"module"}

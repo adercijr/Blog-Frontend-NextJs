@@ -1,0 +1,1 @@
+{"ast":null,"code":"/* eslint-disable import/prefer-default-export */\nexport var API_URL = 'https://dry-ravine-87109.herokuapp.com';\nexport var POSTS_URL = \"\".concat(API_URL, \"/posts\");\nexport var SITE_NAME = 'Aderci Junior';\nexport var SITE_URL = 'https://epic-elion-2a17e9.netlify.app';","map":null,"metadata":{},"sourceType":"module"}

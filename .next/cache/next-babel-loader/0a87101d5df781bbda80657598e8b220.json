@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { Container, Img } from './styled';\nexport default function PostCover(_ref) {\n  var coverUrl = _ref.coverUrl,\n      alt = _ref.alt;\n  return __jsx(Container, null, __jsx(Img, {\n    src: coverUrl,\n    alt: alt\n  }));\n}","map":null,"metadata":{},"sourceType":"module"}

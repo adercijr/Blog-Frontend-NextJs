@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled, { css } from 'styled-components';\nexport const Container = styled.div`\n  ${({\n  theme\n}) => css`\n    color: ${theme.colors.gray};\n    font-size: ${theme.font.sizes.small};\n    margin: ${theme.spacings.medium} 0;\n    font-style: italic;\n  `}\n`;","map":null,"metadata":{},"sourceType":"module"}

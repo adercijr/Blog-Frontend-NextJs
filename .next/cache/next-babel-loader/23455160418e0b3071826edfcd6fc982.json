@@ -1,0 +1,1 @@
+{"ast":null,"code":"import remark from 'remark';\nimport remarkHtml from 'remark-html';\nexport const markdownToHtml = async content => {\n  const data = await remark().use(remarkHtml).process(content);\n  return String(data.contents);\n};","map":null,"metadata":{},"sourceType":"module"}

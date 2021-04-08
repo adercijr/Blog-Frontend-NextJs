@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _taggedTemplateLiteral from \"@babel/runtime/helpers/esm/taggedTemplateLiteral\";\n\nvar _templateObject;\n\nimport styled from 'styled-components';\nexport var Container = styled.span(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\"])));","map":null,"metadata":{},"sourceType":"module"}

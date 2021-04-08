@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var removeHtml = function removeHtml(html) {\n  var data = html.replace(/&lt;.*&gt;/gi, '');\n  data = data.replace(/&lt;\\/.*&gt;/gi, '');\n  data = data.replace(/<[^>]*>/gi, '');\n  data = data.replace(/<\\/[^>]*>/gi, '');\n  return data;\n};","map":null,"metadata":{},"sourceType":"module"}

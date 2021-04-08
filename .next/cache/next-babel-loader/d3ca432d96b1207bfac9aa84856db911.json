@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function PageNotFound() {\n  return 'Página não encontrada';\n}","map":null,"metadata":{},"sourceType":"module"}

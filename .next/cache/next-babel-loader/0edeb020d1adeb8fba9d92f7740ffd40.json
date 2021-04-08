@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { formatDate } from '../../utils/format-date';\nimport { Container } from './styled';\nexport var Date = function Date(_ref) {\n  var date = _ref.date;\n  return __jsx(Container, null, formatDate(date));\n};","map":null,"metadata":{},"sourceType":"module"}

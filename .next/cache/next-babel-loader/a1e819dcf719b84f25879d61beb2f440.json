@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const fetchJson = async url => {\n  const rawData = await fetch(url);\n  const jsonData = await rawData.json();\n  return jsonData;\n};","map":null,"metadata":{},"sourceType":"module"}

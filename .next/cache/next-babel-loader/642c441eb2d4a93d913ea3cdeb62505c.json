@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { Container } from './styled';\nexport const Heading = ({\n  children\n}) => {\n  return __jsx(Container, null, children);\n};","map":null,"metadata":{},"sourceType":"module"}
