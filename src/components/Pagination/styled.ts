@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 96rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: ${({ theme }) => theme.spacings.large} 0;
+  margin: 50px auto;
 `;
 
 export const PreviousLink = styled.div``;

@@ -1,4 +1,7 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/jsx-one-expression-per-line */
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Category, Grid, AllPostsLinks } from './styles';
 import { PostData } from '../../domain/posts/post';
 import { Header } from '../../components/Header';
@@ -8,7 +11,6 @@ import { Footer } from '../../components/Footer';
 import { SITE_NAME } from '../../config/app-config';
 import { PaginationData } from '../../domain/posts/pagination';
 import { Pagination } from '../../components/Pagination';
-import Link from 'next/link';
 
 export type HomePageProps = {
   posts: PostData[];
@@ -31,7 +33,7 @@ export default function HomePage({
         <meta name="description" content="Este é meu blog de tecnologia." />
       </Head>
       <Header />
-      {category && <Category>Categoria: {category}</Category>}
+      {category && <Category>Categoria:{category}</Category>}
       <MainContainer>
         <Container>
           {posts.map((post) => (

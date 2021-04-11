@@ -1,8 +1,0 @@
-{
-  "/404": "pages/404.html",
-  "/categories/[category]": "pages/categories/[category].js",
-  "/": "pages/index.js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/post/page/[...param]": "pages/post/page/[...param].js",
-  "/_error": "pages/_error.js"
-}
